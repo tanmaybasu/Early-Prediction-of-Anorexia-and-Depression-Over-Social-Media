@@ -10,3 +10,11 @@ The classifiers are ada boost, random forest, logistic regression and support ve
 
 UMLS Metamaps are the features extraced from the Metamap tool which extracts the medical concepts fromthe corpora which are related to depression. To follow more see the link https://metamap.nlm.nih.gov. To know more about the implementation of metamaps and other methodolgies you can refer to the above mentioned paper.The process_Metamap_output.py file shows how the extraction of featues are done.
 This contains the process of extracting  required features from the corpora that helps in building a model that provied better predictions.
+
+
+The implementation like Rnn and other futer works are explained in following paper (http://ceur-ws.org/Vol-2125/paper_182.pdf) 
+Hence , For any quires can contact on jandhyyalasri@gmail.com.
+
+Thanks & Regards,
+J.Kalyani.
+
