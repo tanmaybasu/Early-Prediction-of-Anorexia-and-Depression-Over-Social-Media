@@ -1,1 +1,10 @@
-# ERisk
+# ERisk Early Detection of Signs of Anorexia and Depression Over Social Media using Effective Machine Learning Frameworks:
+
+The CLEF eRisk 2018 challenge focuses on early detection of signs of depression or anorexia using posts or comments over social
+media. The eRisk lab has organized two tasks this year and released two different corpora for the individual tasks. The corpora are developed using the posts and comments over Reddit, a popular social media.    
+
+The analysis and performance for early risk prediction of anorexia or depression involving  various classifiers with machine learning techniques and feature engineering schemes are well explained  in the paper( http://ceur-ws.org/Vol-2125/paper_182.pdf ). 
+
+The classifiers are ada boost, random forest, logistic regression and support vector machine are implemented with repective to  feature engineering schemes like bag of words(Count-Vectorizer, TF-IDF Vectorizer) , UMLS Metamap Features , and Embedding models  using Fasttext vector while implementing RNN's. 
+
+The DErisk.py  python file results the predicted output of the specifed classifer. This file only contains bag of word feature engennering thechnique. To evaluate results for UMLS metamap features change the read.csv path by importing Metamap resulted csv file.
