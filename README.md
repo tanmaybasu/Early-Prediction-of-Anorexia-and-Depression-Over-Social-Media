@@ -7,11 +7,11 @@ Initially the corpara are realeased in XMl file format. They are then processed 
 
 The classifiers like ada boost, random forest, logistic regression and support vector machine are implemented with repective to feature engineering schemes  bag of words(Count-Vectorizer, TF-IDF Vectorizer) , UMLS Metamap Features , and Embedding models  using Fasttext vector while implementing RNN's. The DErisk.py file only contains bag of word feature engennering thechnique.
 
-UMLS Metamaps are the features extraced from the Metamap tool which extracts the medical concepts fromthe corpora which are related to depression. To follow more see the link https://metamap.nlm.nih.gov. To know more about the implementation of metamaps and other methodolgies you can refer to the above mentioned paper.The process_Metamap_output.py file shows how the extraction of featues are done.
+UMLS Metamaps are the features extraced from the Metamap tool which extracts the medical concepts fromthe corpora which are related to depression. To follow more see the link https://metamap.nlm.nih.gov. To know more about the implementation of metamaps and other methodolgies you can refer to the above mentioned paper. The process_Metamap_output.py file shows how the extraction of featues are done.
 This contains the process of extracting  required features from the corpora that helps in building a model that provied better predictions. The code in DErisk.py helps in training the model by simply chaningn the input of csv file.
 
-# Acknowledge:
-The analysis and performance for prediction of signs depression over corpora are explained in the following paper with proper references.( http://ceur-ws.org/Vol-2125/paper_182.pdf ) 
+The analysis and performance for prediction of signs depression over corpora are explained in the following paper with proper references.
+( http://ceur-ws.org/Vol-2125/paper_182.pdf ) 
 
 Hence , For any quires can contact on jandhyalasri@gmail.com
 
