@@ -10,8 +10,7 @@ The classifiers like ada boost, random forest, logistic regression and support v
 UMLS Metamaps are the features extraced from the Metamap tool which extracts the medical concepts fromthe corpora which are related to depression. To follow more see the link https://metamap.nlm.nih.gov. To know more about the implementation of metamaps and other methodolgies you can refer to the above mentioned paper. The process_Metamap_output.py file shows how the extraction of featues are done.
 This contains the process of extracting  required features from the corpora that helps in building a model that provied better predictions. The code in DErisk.py helps in training the model by simply chaningn the input of csv file.
 
-The analysis and performance for prediction of signs depression over corpora are explained in the following paper with proper references.
-( http://ceur-ws.org/Vol-2125/paper_182.pdf ) 
+The analysis and performance for prediction of signs of depression over the given data is presented in the paper: http://ceur-ws.org/Vol-2125/paper_182.pdf.  
 
 For any further query, comment or suggestion, you may contact Sree Kalyani at jandhyalasri@gmail.com
 
