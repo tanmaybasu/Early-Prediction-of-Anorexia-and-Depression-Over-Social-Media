@@ -13,8 +13,6 @@ This contains the process of extracting  required features from the corpora that
 The analysis and performance for prediction of signs depression over corpora are explained in the following paper with proper references.
 ( http://ceur-ws.org/Vol-2125/paper_182.pdf ) 
 
-Hence , For any quires can contact on jandhyalasri@gmail.com
+For any further query, comment or suggestion, you may contact Sree Kalyani at jandhyalasri@gmail.com
 
-Thanks & Regards,
-J.Kalyani.
 
