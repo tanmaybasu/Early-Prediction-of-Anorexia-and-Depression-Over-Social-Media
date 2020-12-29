@@ -1,16 +1,13 @@
 # Early Detection of Anorexia and Depression Over Social Media using NLP and Machine Learning
 
-The [CLEF eRisk 2018](https://early.irlab.org/2018/index.html) NLP shared task had focused on early detection of signs of anorexia or depression over posts or comments on Reddit. The eRisk lab had organized two different corpora for the individual tasks. The corpora are developed using the posts and comments over Reddit, a popular social media. This consist of two classes postive and negitive whose data are released in sequential manner over a period of time.
+The [CLEF eRisk 2018](https://early.irlab.org/2018/index.html) NLP shared task had focused on early detection of signs of anorexia or depression over posts or comments on Reddit. The eRisk lab had organized two different corpora for the individual tasks. The corpora were developed using the posts and comments over Reddit, a popular social media. The data consist of two classes postive and negitive, whose data are released in sequential manner over a period of time.
 
-Initially the corpara are realeased in XMl file format. They are then processed into an csv file format by extracting only Subject_id , Classlabel and text of each individual users. Xml  ELement Tree library are used for pre-processing the text fro given xml files. The pre-processing method can be understood from pre-process.py file.
+The corpara were realeased in XMl format, which were processed into a csv file by extracting the given subject id, class label and text of individual users. [XML ELement Tree](https://docs.python.org/3/library/xml.etree.elementtree.html) library in python was used to get free text data from the given XML files. The preprocessing of the given depression data was performed by `preprocess_depression.py` and the preprocessing of anorexia data was implemented within `anorexia.py`. 
 
-The classifiers like ada boost, random forest, logistic regression and support vector machine are implemented with repective to feature engineering schemes  bag of words(Count-Vectorizer, TF-IDF Vectorizer) , UMLS Metamap Features , and Embedding models  using Fasttext vector while implementing RNN's. The DErisk.py file only contains bag of word feature engennering thechnique.
+The classifiers viz., `ada boost`, `random forest`, `logistic regression` and `support vector machine` were implemented in terms of bag of words model (i.e., Count-Vectorizer and TF-IDF Vectorizer), biomedical ontology (UMLS features) based feature engineering scheme. Moreover, recurrent neural network in terms of Fasttext and Glove word-embedding models was also implemented. The `anorexia.py` and `depression.py` files perform data classification using bag of word model respectively for anorexia and depression. The performance of data classification in terms of UMLS features were poor as there were very few biomedical terms in the data. Hence we did not upload these codes here. 
 
-UMLS Metamaps are the features extraced from the Metamap tool which extracts the medical concepts fromthe corpora which are related to depression. To follow more see the link https://metamap.nlm.nih.gov. To know more about the implementation of metamaps and other methodolgies you can refer to the above mentioned paper. The process_Metamap_output.py file shows how the extraction of featues are done.
-This contains the process of extracting  required features from the corpora that helps in building a model that provied better predictions. The code in DErisk.py helps in training the model by simply chaningn the input of csv file.
+The analysis and performance of the frameowrks for the individual tasks are presented in this paper: http://ceur-ws.org/Vol-2125/paper_182.pdf  
 
-The analysis and performance for prediction of signs of depression over the given data is presented in the paper: http://ceur-ws.org/Vol-2125/paper_182.pdf.  
-
-For any further query, comment or suggestion, you may contact Sayanta Paul at sayanta95@gmail.com, Sree Kalyani at jandhyalasri@gmail.com or Tanmay Basu at welcometanmay@gmail.com
+For any further query, comment or suggestion, you may contact Sayanta Paul at sayanta95@gmail.com or Sree Kalyani at jandhyalasri@gmail.com or Tanmay Basu at welcometanmay@gmail.com
 
 
