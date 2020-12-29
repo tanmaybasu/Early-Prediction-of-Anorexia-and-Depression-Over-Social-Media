@@ -1,6 +1,6 @@
 # Early Detection of Anorexia and Depression Over Social Media using NLP and Machine Learning
 
-The [CLEF eRisk 2018]{https://early.irlab.org/2018/index.html} NLP shared task had focused on early detection of signs of anorexia or depression over posts or comments on Reddit. The eRisk lab had organized two different corpora for the individual tasks. The corpora are developed using the posts and comments over Reddit, a popular social media. This consist of two classes postive and negitive whose data are released in sequential manner over a period of time.
+The [CLEF eRisk 2018](https://early.irlab.org/2018/index.html) NLP shared task had focused on early detection of signs of anorexia or depression over posts or comments on Reddit. The eRisk lab had organized two different corpora for the individual tasks. The corpora are developed using the posts and comments over Reddit, a popular social media. This consist of two classes postive and negitive whose data are released in sequential manner over a period of time.
 
 Initially the corpara are realeased in XMl file format. They are then processed into an csv file format by extracting only Subject_id , Classlabel and text of each individual users. Xml  ELement Tree library are used for pre-processing the text fro given xml files. The pre-processing method can be understood from pre-process.py file.
 
