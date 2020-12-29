@@ -1,4 +1,4 @@
-# Early Detection of Signs of Depression Over Social Media using Effective Machine Learning Frameworks :
+# Early Detection of Anorexia and Depression Over Social Media using NLP and Machine Learning
 
 The CLEF eRisk 2018 challenge focuses on early detection of signs of Depression using posts or comments over social
 media. The eRisk lab has organized two tasks this year and released two different corpora for the individual tasks. The corpora are developed using the posts and comments over Reddit, a popular social media.Thisconsist of two classes postive and negitive whose data are released in sequential manner.
