@@ -12,6 +12,6 @@ This contains the process of extracting  required features from the corpora that
 
 The analysis and performance for prediction of signs of depression over the given data is presented in the paper: http://ceur-ws.org/Vol-2125/paper_182.pdf.  
 
-For any further query, comment or suggestion, you may contact Sree Kalyani at jandhyalasri@gmail.com
+For any further query, comment or suggestion, you may contact Sayanta Paul at sayanta95@gmail.com, Sree Kalyani at jandhyalasri@gmail.com or Tanmay Basu at welcometanmay@gmail.com
 
 
