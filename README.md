@@ -9,7 +9,7 @@ The classifiers viz., `ada boost`, `random forest`, `logistic regression` and `s
 The analysis and performance of the frameowrks for the individual tasks are presented in this paper: http://ceur-ws.org/Vol-2125/paper_182.pdf  
 
 ## Prerequsites
-[Python 3](https://www.python.org/downloads/), [Scikit-Learn](https://scikit-learn.org/0.16/install.html), [NLTK](https://www.nltk.org/install.html)
+[Python 3](https://www.python.org/downloads/), [Scikit-Learn](https://scikit-learn.org/0.16/install.html), [NLTK](https://www.nltk.org/install.html), [NumPy](https://numpy.org/install/), [Scipy](https://pypi.org/project/scipy/), [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
 
 ## Contact
 
