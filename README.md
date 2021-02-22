@@ -8,6 +8,19 @@ The classifiers viz., `ada boost`, `random forest`, `logistic regression` and `s
 
 The analysis and performance of the frameowrks for the individual tasks are presented in this paper: http://ceur-ws.org/Vol-2125/paper_182.pdf  
 
+## Prerequsites
+[Python 3 version](https://www.python.org/downloads/), [Scikit-Learn](https://scikit-learn.org/0.16/install.html), [NLTK](https://www.nltk.org/install.html)
+
+## Contact
+
 For any further query, comment or suggestion, you may contact Sayanta Paul at sayanta95@gmail.com or Sree Kalyani at jandhyalasri@gmail.com or Tanmay Basu at welcometanmay@gmail.com
 
-
+## Citing
+```
+@inproceedings{paul18erisk,
+  title={Early Detection of Signs of Anorexia and Depression Over Social Media using Effective Machine Learning Frameworks.},
+  author={Paul, Sayanta and Jandhyala, Sree Kalyani and Basu, Tanmay},
+  booktitle={CLEF (Working notes)},
+  year={2018}
+}
+```
