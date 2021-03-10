@@ -15,7 +15,7 @@ The analysis and performance of the frameowrks for the individual tasks are pres
 
 For any further query, comment or suggestion, you may contact Sayanta Paul at sayanta95@gmail.com or Sree Kalyani at jandhyalasri@gmail.com or Tanmay Basu at welcometanmay@gmail.com
 
-## Citing
+## Citation
 ```
 @inproceedings{paul18erisk,
   title={Early Detection of Signs of Anorexia and Depression Over Social Media using Effective Machine Learning Frameworks.},
